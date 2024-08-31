@@ -1,4 +1,4 @@
-# brute-force-attach-monitoring
+# brute-force-attack-monitoring
 
 # CentOS VM Security Assessment and Response Tool
 
