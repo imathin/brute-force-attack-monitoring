@@ -31,12 +31,12 @@ while true; do
     read choice
 
     case $choice in
-        1) ./analyze_logs.sh ;;
-        2) ./verify_users.sh ;;
-        3) ./change_ssh_port.sh ;;
-        4) ./enforce_password_policy.sh ;;
-        5) ./enable_mfa.sh ;;
-        6) ./setup_monitoring.sh ;;
+        1) scripts/analyze_logs.sh ;;
+        2) scripts/verify_users.sh ;;
+        3) scripts/change_ssh_port.sh ;;
+        4) scripts/enforce_password_policy.sh ;;
+        5) scripts/enable_mfa.sh ;;
+        6) scripts/setup_monitoring.sh ;;
         7) echo "Exiting."; exit 0 ;;
         *) echo "Invalid option. Please try again." ;;
     esac
